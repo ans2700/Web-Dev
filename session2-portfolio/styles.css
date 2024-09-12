@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 0;
+    background-color: wheat;
+}
+
+header {
+    background-color: #333; 
+    padding: 20px;
+  
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.left ul,.center ul, .right ul {  
+    display: flex;
+    list-style: none;
+}
+
+.left ul li,.center ul li, .right ul li {
+    margin:10px;
+}
+nav{
+    color:white;
+
+}
+nav ul li a {
+    color: white; 
+    text-decoration: none;
+    font-size: 18px;
+}
+section {
+    padding: 100px 40px;
+}
+#about,#education,#project,#certifications,#technologies{
+    margin-bottom: -180px;
+}
+#about{
+    margin-top: -50px;
+}
+li strong {
+    font-size: 20px;
+}
+
